@@ -1,0 +1,82 @@
+
+{
+    "autores": ["Eduardo Botelho", "Henrique Guimarães"],
+    "rotas": [
+        {
+            "resource": "leads",
+            "endpoints": [
+                {
+                    "caminho": "/api/leads",
+                    "metodo": "GET"
+                },
+                {
+                    "caminho": "/api/leads",
+                    "metodo": "POST"
+                },
+                {
+                    "caminho": "/api/leads/{id}",
+                    "metodo": "GET"
+                },
+                {
+                    "caminho": "/api/leads/{id}",
+                    "metodo": "PUT"
+                },
+                {
+                    "caminho": "/api/leads/{id}",
+                    "metodo": "DELETE"
+                }
+            ]
+        },
+        {
+            "resource": "oportunidades",
+            "endpoints": [
+                {
+                    "caminho": "/api/oportunidades",
+                    "metodo": "GET"
+                },
+                {
+                    "caminho": "/api/oportunidades",
+                    "metodo": "POST"
+                },
+                {
+                    "caminho": "/api/oportunidades/{id}",
+                    "metodo": "GET"
+                },
+                {
+                    "caminho": "/api/oportunidades/{id}",
+                    "metodo": "PUT"
+                },
+                {
+                    "caminho": "/api/oportunidades/{id}",
+                    "metodo": "DELETE"
+                }
+            ]
+        },
+        {
+            "resource": "produtos",
+            "endpoints": [
+                {
+                    "caminho": "/api/produtos",
+                    "metodo": "GET"
+                },
+                {
+                    "caminho": "/api/produtos",
+                    "metodo": "POST"
+                },
+                {
+                    "caminho": "/api/produtos/{id}",
+                    "metodo": "GET"
+                },
+                {
+                    "caminho": "/api/produtos/{id}",
+                    "metodo": "PUT"
+                },
+                {
+                    "caminho": "/api/produtos/{id}",
+                    "metodo": "DELETE"
+                }
+            ]
+        }
+    ]
+}
+
