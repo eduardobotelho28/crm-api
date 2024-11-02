@@ -26,7 +26,9 @@ switch($resource) {
         $oportunidadesController->processRequest($_SERVER['REQUEST_METHOD'], $identifier)  ;
     break;
     case "produtos":
-        require_once("./src/controllers/ProdutosController.php");
+        require_once("./src/controllers/ProdutosController.php")                      ;
+        $produtosController = new ProdutosController()                                ;
+        $produtosController->processRequest($_SERVER['REQUEST_METHOD'], $identifier)  ;
     break; 
     case "db":
         require_once("./src/database/example_data.php");
